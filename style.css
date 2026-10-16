@@ -33,3 +33,10 @@
 #aboutTitle{font-size:44px;margin:18px 0 20px}
 #aboutText p{line-height:1.55;margin-bottom:12px}
 #aboutText .about-welcome{margin:16px 0 18px}
+
+/* Let the complete distance block determine canvas height, including enlarged text. */
+#archive .canvas{height:auto;max-height:none;padding-bottom:48px}
+#archive footer{position:relative;gap:20px 32px;flex-wrap:wrap;align-items:baseline;line-height:1.7;margin-top:0}
+#archive .journey{margin-bottom:0}
+#archive .journey>small{line-height:1.7}
+@media(max-width:850px){#archive .canvas{padding-bottom:40px}#archive footer{gap:16px 24px}}
